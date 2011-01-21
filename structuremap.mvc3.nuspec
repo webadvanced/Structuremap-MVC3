@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<package> 
+  <metadata> 
+    <id>structiremap-MVC3</id> 
+    <version>1.0.0</version> 
+    <authors>Paul Barton</authors>
+    <description>Adds the latest version of structuremap and configures it as the default Dependency Resolver.</description> 
+    <summary>Adds and sets up structuremap 2x for ASP.NET MVC3 applications.</summary>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <language>en-US</language>
+    <projectUrl>https://github.com/webadvanced/Structuremap-MVC3</projectUrl>
+    <dependencies>
+      <dependency id="structuremap" version="2.6.1.0" />
+      <dependency id="WebActivator" version="1.0.0.0" />
+    </dependencies>
+  </metadata> 
+  <files>
+      <file src="content\*.pp" target="content" />
+  </files>
+</package>
