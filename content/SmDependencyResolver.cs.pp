@@ -10,14 +10,21 @@ namespace $rootnamespace$
 
         private readonly IContainer _container;
 
-        public SmDependencyResolver() {
-            _container = IoC.Initialize();
+        public SmDependencyResolver(IContainer container) {
+            _container = container;
         }
 
         public object GetService(Type serviceType) {
             if (serviceType == null) return null;
             try {
-                return _container.GetInstance(serviceType);
+                  if (serviceType.IsAbstract || serviceType.IsInterface)
+                  {
+                    return _container.TryGetInstance(serviceType);
+                  }
+                  else
+                  {
+                    return _container.GetInstance(serviceType);
+                  }
             }
             catch {
 

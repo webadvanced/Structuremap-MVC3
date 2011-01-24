@@ -5,7 +5,8 @@
 namespace $rootnamespace$ {
     public static class AppStart_Structuremap {
         public static void Start() {
-            DependencyResolver.SetResolver(new SmDependencyResolver());
+            var container = (IContainer) IoC.Initialize();
+            DependencyResolver.SetResolver(new SmDependencyResolver(container));
         }
     }
 }

@@ -2,7 +2,7 @@
 <package> 
   <metadata> 
     <id>StructureMap-MVC3</id> 
-    <version>1.0.1</version> 
+    <version>1.0.2</version> 
     <authors>Paul Barton</authors>
     <description>Adds the latest version of structuremap and configures it as the default Dependency Resolver.</description> 
     <summary>Adds and sets up structuremap 2x for ASP.NET MVC3 applications.</summary>
