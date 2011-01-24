@@ -1,4 +1,5 @@
 ﻿using System.Web.Mvc;
+using StructureMap;
 
 [assembly: WebActivator.PreApplicationStartMethod(typeof($rootnamespace$.AppStart_Structuremap), "Start")]
 
