@@ -5,7 +5,7 @@
     <version>1.0.2</version> 
     <authors>Paul Barton</authors>
     <description>Adds the latest version of structuremap and configures it as the default Dependency Resolver.</description> 
-    <summary>Adds and sets up structuremap 2x for ASP.NET MVC3 applications.</summary>
+    <summary>An MVC3 IDependencyResolver wrapper for Structuremap 2.x</summary>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <language>en-US</language>
     <projectUrl>https://github.com/webadvanced/Structuremap-MVC3</projectUrl>
