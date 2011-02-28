@@ -2,8 +2,8 @@
 <package> 
   <metadata> 
     <id>StructureMap-MVC3</id> 
-    <version>1.0.2</version> 
-    <authors>Paul Barton</authors>
+    <version>1.0.3</version> 
+    <authors>Web Advanced</authors>
     <description>Adds the latest version of structuremap and configures it as the default Dependency Resolver.</description> 
     <summary>An MVC3 IDependencyResolver wrapper for Structuremap 2.x</summary>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -15,6 +15,6 @@
     </dependencies>
   </metadata> 
   <files>
-      <file src="content\*.pp" target="content" />
+      <file src="content\**\*.pp" target="content" />
   </files>
 </package>
