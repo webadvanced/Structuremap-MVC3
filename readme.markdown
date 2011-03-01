@@ -29,4 +29,4 @@
             return ObjectFactory.Container;
         }
 
-This configuration will *just work* for any Interfaces and concrete implementations that follow the default convention and are part of the MVC project. I.E. ISomeInterface.cs implemented with SomeInterface.cs
+This configuration will *just work* for any Interfaces and concrete implementations that follow the default convention and are part of the MVC project. I.E. ISomeService.cs implemented with SomeService.cs
