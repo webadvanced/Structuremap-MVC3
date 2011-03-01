@@ -3,10 +3,12 @@
 [**What it adds to your solution**]
 
 2 directories to the root of your MVC project:
+
 * App_Start (If not already in your solution)
 * DependencyResolution
 
 3 Files:
+
 * App_Start/StructuremapMvc.cs (this is setting Structuremap IDependencyResolver as the default)
 * DependencyResolution/SmDependencyResolver.cs (Implements the IDependencyResolver using Structuremap)
 * DependencyResolution/IoC.cs (Structuremap's ObjectFactory Initialization, this is where your would configure and mapping)
